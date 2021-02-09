@@ -1,0 +1,87 @@
+html, body
+{
+	font-family: 'Inter', sans-serif;
+}
+
+.ui.form
+{
+	.btn-submit
+	{
+		width: 100%;
+	}
+}
+
+.dp-none
+{
+	display: none;
+}
+
+.app__container
+{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+
+	.app__container-form
+	{
+		padding: 20px 50px;
+		width: 350px;
+	}
+
+	.app__title
+	{
+		font-size: 3rem;
+		letter-spacing: -.066875rem;
+		text-align: center;
+	}
+
+	.app__form
+	{
+		input
+		{
+			padding: 13px 15px !important;
+		}
+	}
+
+	.app__change-form
+	{
+		margin-top: 10px;
+		width: 400px;
+		background-color: $background-light;
+		padding: 20px 50px;
+		border: 1px solid $border-grey;
+		text-align: center;
+		border-radius: 5px;
+
+		span
+		{
+			color: $primary;
+			font-weight: bold;
+			margin-left: 5px;
+
+			&:hover
+			{
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.ui__navbar
+{
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #dbdbdb;
+	padding: 12px 0;
+	background-color: $background-light;
+	z-index: 1;
+
+	.ui.container
+	{
+		display: flex;
+		justify-content: flex-end;
+	}
+}
