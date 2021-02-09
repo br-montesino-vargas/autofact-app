@@ -3,7 +3,7 @@
 Este proyecto fue realizado con el fin de cumplir con las metas de la tarea solicitada por AutoFact 
 Clonar el repositorio
 ```
-$ git clone https://github.com/br-montesino-vargas/portafolio-app.git
+$ git clone https://github.com/br-montesino-vargas/autofact-app.git
 ```
 ### FrontEnd:
 
